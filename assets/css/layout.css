@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  font-family: var(--fonte-base);
+  background-color: var(--cor-neutra-clara);
+  color: var(--cor-neutra-escura);
+}
+
+/* GRID principal */
+.container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: var(--espaco-2);
+  max-width: 1200px;
+  margin: auto;
+  padding: var(--espaco-3);
+}
+
+/* Cabeçalho e rodapé */
+header, footer {
+  grid-column: 1 / -1;
+  background-color: var(--cor-primaria);
+  color: white;
+  text-align: center;
+  padding: var(--espaco-2);
+}
+
+/* Responsividade */
+@media (max-width: 1024px) {
+  .container { grid-template-columns: repeat(8, 1fr); }
+}
+
+@media (max-width: 768px) {
+  .container { grid-template-columns: repeat(4, 1fr); }
+}
+
+@media (max-width: 480px) {
+  .container { grid-template-columns: repeat(2, 1fr); }
+}

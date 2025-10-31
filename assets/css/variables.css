@@ -1,0 +1,27 @@
+:root {
+  /* Cores */
+  --cor-primaria: #0066cc;
+  --cor-secundaria: #0099ff;
+  --cor-sucesso: #28a745;
+  --cor-erro: #dc3545;
+  --cor-alerta: #ffc107;
+  --cor-neutra-clara: #f5f5f5;
+  --cor-neutra-media: #cccccc;
+  --cor-neutra-escura: #333333;
+
+  /* Fontes */
+  --fonte-base: 'Poppins', sans-serif;
+  --fonte-tamanho-1: 12px;
+  --fonte-tamanho-2: 14px;
+  --fonte-tamanho-3: 16px;
+  --fonte-tamanho-4: 20px;
+  --fonte-tamanho-5: 28px;
+
+  /* Espaços */
+  --espaco-1: 8px;
+  --espaco-2: 16px;
+  --espaco-3: 24px;
+  --espaco-4: 32px;
+  --espaco-5: 48px;
+  --espaco-6: 64px;
+}
