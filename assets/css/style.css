@@ -1,6 +1,6 @@
 /* ======= ESTILO DO CABEÇALHO ======= */
 header {
-  background-color: var(--cor-primaria); /* Cor principal do seu tema */
+  background-color: var(--cor-primaria); 
   color: white;
   padding: 16px 32px;
   display: flex;
@@ -45,7 +45,7 @@ nav ul li a:hover {
   color: var(--cor-scundara);
 }
 
-/* ======= ÍCONE ᐅ ANTES DOS BOTÕES ======= */
+/* ÍCONE ᐅ ANTES DOS BOTÕES  */
 nav ul li a::before {
   content: " ᐅ ";
   color: var(--cor-secundaria);
